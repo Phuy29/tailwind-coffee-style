@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-coffee-style",
+  "version": "1.0.0",
+  "description": "huylp.com",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start": "live-server public"
+  },
+  "keywords": [],
+  "author": "huylp.com",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.0.24"
+  }
+}
