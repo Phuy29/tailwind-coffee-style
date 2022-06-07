@@ -11,8 +11,38 @@
 
 <body>
   <div id="root">
-    <div class="content-wrapper">
-      <header></header>
+    <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
+      <header class="py-6 mx-10">
+        <nav class="flex flex-row justify-between items-center">
+          <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+            CoffeeStyle.
+          </div>
+
+          <ul class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+            <li class="ct-top-menu-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="ct-top-menu-item"><a href="#">Our Products</a></li>
+            <li class="ct-top-menu-item"><a href="#">Blog</a></li>
+            <li class="ct-top-menu-item"><a href="#">About</a></li>
+            <li class="ct-top-menu-item"><a href="#">Contact</a></li>
+            <li class="ct-top-menu-item"><a href="#">StyleGuide</a></li>
+          </ul>
+
+          <ul class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+            <li>
+              <a href="#" class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ct-icon" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                </svg>
+                <span class="mx-2">Cart</span>
+                <span class="ct-badge-circle bg-orange-400 text-white">10</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <main></main>
       <footer></footer>
     </div>
