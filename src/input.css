@@ -20,3 +20,7 @@
 .ct-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
 }
+
+.ct-button {
+  @apply px-6 py-5 text-center text-black bg-white uppercase text-sm font-semibold tracking-wider cursor-pointer hover:bg-opacity-90;
+}

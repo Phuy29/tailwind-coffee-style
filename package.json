@@ -4,7 +4,7 @@
   "description": "huylp.com",
   "main": "index.js",
   "scripts": {
-    "buildCss": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
     "start": "live-server public"
   },
   "keywords": [],
