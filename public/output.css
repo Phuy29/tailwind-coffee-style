@@ -588,6 +588,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -634,6 +646,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[1000px\]{
   height: 1000px;
+}
+
+.h-\[300px\]{
+  height: 300px;
 }
 
 .w-6{
@@ -836,6 +852,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('./img/bg-parallax.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-img-1\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-img-1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-img-2\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-img-2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-img-3\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-img-3.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -899,6 +927,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
 }
 
 .text-center{
@@ -1181,6 +1213,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 380px;
   }
 
+  .sm\:h-\[300px\]{
+    height: 300px;
+  }
+
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1190,6 +1226,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px){
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 }
 
